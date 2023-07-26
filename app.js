@@ -1,7 +1,7 @@
 // chiedo all utente il primo numero
-const min = prompt('metti un numero');
+const min = parseInt(prompt('metti un numero'));
 // chiedo all utente il secondo numero
-const max = prompt('meti un num'); 
+const max = parseInt(prompt('meti un num')); 
 //creo un numro casuale compreso tra i due numeri cheisti all utente
 const random = Math.floor(Math.random() * (max - min)+ min );
 // stampo il risultato a schermo
