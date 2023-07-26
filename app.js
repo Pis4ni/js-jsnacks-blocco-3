@@ -21,11 +21,14 @@ if (min>max) {
     console.log(random)
     
 }
-
-//chiedo all utente la prima parola
-const w1= prompt('prima parola')
-//chiedo all utente la seconda parola
-const w2= prompt('seconda parola')
+while (w1==Number) {
+    //chiedo all utente la prima parola
+    const w1= prompt('prima parola')
+}
+while(w2==Number){
+    //chiedo all utente la seconda parola
+    const w2= prompt('seconda parola')
+}
 //verifico la lunghezza delle parole
 //SE hanno la stessa lunghezza
 if (w1.length==w2.length) {
