@@ -38,3 +38,19 @@ if (w1.length==w2.length) {
 }else{
     console.log(w2)
 }
+
+
+//creo un array vuoto
+let empty = []
+// immagazino il totale
+let total = 
+// FINCHÉ il totale della somma degli elementi é inferiore a 50
+while (total<50) {
+    //chiedo all utente un numero
+    number = parseInt(prompt('inserisci un numero'))
+    somma += number
+    if(total<50){
+        empty.push(number)
+    }
+
+}
