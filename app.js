@@ -22,18 +22,10 @@ if (min>max) {
     
 }
 
-
-
-const w1 ='' 
-const w2 ='' 
-while (w1==Number) {
-    //chiedo all utente la prima parola
-    w1= prompt('prima parola')
-}
-while(w2==Number){
-    //chiedo all utente la seconda parola
-    w2= prompt('seconda parola')
-}
+//chiedo all utente la prima parola
+const w1= prompt('prima parola')
+//chiedo all utente la seconda parola
+const w2= prompt('seconda parola')
 //verifico la lunghezza delle parole
 //SE hanno la stessa lunghezza
 if (w1.length==w2.length) {
